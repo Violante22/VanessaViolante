@@ -1,0 +1,18 @@
+﻿<Window x:Class="Uppgift1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uppgift1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Total" HorizontalAlignment="Left" Height="30" Margin="15,154,0,0" VerticalAlignment="Top" Width="125"/>
+        <Label Content="Belopp" HorizontalAlignment="Left" Height="30" Margin="15,49,0,0" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="txbbelopp"  HorizontalAlignment="Left" Height="35" Margin="15,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="110"/>
+        <Button x:Name="btnläggtill"  Content="Lägg till vara" HorizontalAlignment="Left" Height="30" Margin="190,114,0,0" VerticalAlignment="Top" Width="155" Click="btnläggtill_Click"/>
+        <Button x:Name="btntabort"  Content="Ta bort vara" HorizontalAlignment="Left" Height="30" Margin="190,189,0,0" VerticalAlignment="Top" Width="160" Click="btntabort_Click"/>
+        <TextBox x:Name="txbtot"  HorizontalAlignment="Left" Height="35" Margin="15,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="115"/>
+
+    </Grid>
+</Window>
